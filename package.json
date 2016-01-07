@@ -1,0 +1,20 @@
+{
+  "name": "@f/create-element",
+  "description": "Micro utility for creating DOM elements",
+  "repository": "git://github.com/micro-js/create-element.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "@f/is-svg": "^1.0.0",
+    "@f/svg-namespace": "^1.0.1"
+  },
+  "devDependencies": {
+    "@f/html-namespace": "^1.0.0",
+    "hihat": "^2.5.0",
+    "tape": "^4.2.2"
+  }
+}
