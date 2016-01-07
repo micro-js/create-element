@@ -2,7 +2,7 @@
   "name": "@f/create-element",
   "description": "Micro utility for creating DOM elements",
   "repository": "git://github.com/micro-js/create-element.git",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
